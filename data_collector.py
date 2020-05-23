@@ -13,8 +13,8 @@ def lambda_handler(event, context):
 
     data = yf.download(
             tickers = ' '.join(lstsym),
-            start = '2020-05-15',
-            end = '2020-05-16',
+            start = '2020-05-14',
+            end = '2020-05-15',
             period = "1d",
             interval = "1m",
             group_by = 'ticker',

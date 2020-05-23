@@ -1,4 +1,4 @@
-SELECT 
+select
   name company,
   hour(cast(ts as timestamp)) hour, 
   max(high) max_high 
